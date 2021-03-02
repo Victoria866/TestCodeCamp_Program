@@ -1,0 +1,231 @@
+{
+  "id": "c490d96e-2095-4fde-b855-79c15645ae21",
+  "version": "2.0",
+  "name": "Facebook.com",
+  "url": "https://www.facebook.com",
+  "tests": [{
+    "id": "9584fd3c-f4a1-4d38-b4ec-fb8672010c00",
+    "name": "Facebook_SignIn",
+    "commands": [{
+      "id": "ad7d0b70-7f86-424b-82f9-b176527cf9b6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b48c705-6be0-4b1e-bf95-7ea9d418b888",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1134x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f956981f-11f7-4e95-bd8b-4e8e48b48991",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_a_7G']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "viktoriabam@gmail.com"
+    }, {
+      "id": "319d0408-b60b-40e8-9a92-f2cbdfd624fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=pass", "name"],
+        ["css=#pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='passContainer']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "victoria8"
+    }, {
+      "id": "b8335126-b4a9-4b89-b156-24dd1db42fd1",
+      "comment": "",
+      "command": "click",
+      "target": "id=u_0_d_O6",
+      "targets": [
+        ["id=u_0_d_O6", "id"],
+        ["name=login", "name"],
+        ["css=#u_0_d_O6", "css:finder"],
+        ["xpath=//button[@id='u_0_d_O6']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_a_7G']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32dd841b-285b-4324-9bad-71074c334b19",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkpointSubmitButton",
+      "targets": [
+        ["id=checkpointSubmitButton", "id"],
+        ["css=#checkpointSubmitButton", "css:finder"],
+        ["xpath=//button[@id='checkpointSubmitButton']", "xpath:attributes"],
+        ["xpath=//div[@id='checkpointBottomBar']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c678aa9-3819-4632-99ba-1c7544650e10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uiInputLabel:nth-child(1) > .uiInputLabelLabel > span",
+      "targets": [
+        ["css=.uiInputLabel:nth-child(1) > .uiInputLabelLabel > span", "css:finder"],
+        ["xpath=//div[@id='u_4_9_Im']/div/label[2]/span", "xpath:idRelative"],
+        ["xpath=//label[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Approve your login on another phone or computer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fb62453-1968-42d9-b795-2df65cd829dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uiInputLabel:nth-child(3) > .uiInputLabelLabel > span",
+      "targets": [
+        ["css=.uiInputLabel:nth-child(3) > .uiInputLabelLabel > span", "css:finder"],
+        ["xpath=//div[@id='u_4_9_Im']/div[3]/label[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/label[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Get a code sent to your email address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f22212c-a140-44dc-a985-2cb0b7484c9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkpointSubmitButton",
+      "targets": [
+        ["id=checkpointSubmitButton", "id"],
+        ["css=#checkpointSubmitButton", "css:finder"],
+        ["xpath=//button[@id='checkpointSubmitButton']", "xpath:attributes"],
+        ["xpath=//div[@id='checkpointBottomBar']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30f6c722-33db-49f3-b3a4-9343d155f8c7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=checkpointSubmitButton",
+      "targets": [
+        ["id=checkpointSubmitButton", "id"],
+        ["css=#checkpointSubmitButton", "css:finder"],
+        ["xpath=//button[@id='checkpointSubmitButton']", "xpath:attributes"],
+        ["xpath=//div[@id='checkpointBottomBar']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "365cc97f-bae2-4314-937c-9a09662cca5a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=checkpointSubmitButton",
+      "targets": [
+        ["id=checkpointSubmitButton", "id"],
+        ["css=#checkpointSubmitButton", "css:finder"],
+        ["xpath=//button[@id='checkpointSubmitButton']", "xpath:attributes"],
+        ["xpath=//div[@id='checkpointBottomBar']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5605ae8c-1b16-4248-8b33-3fb0fda67ba4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uiInputLabel:nth-child(1) div",
+      "targets": [
+        ["css=.uiInputLabel:nth-child(1) div", "css:finder"],
+        ["xpath=//div[@id='u_8_7_UH']/div/label[2]/span/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60c77f2e-d10f-4459-a0c1-b76948a566e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkpointSubmitButton",
+      "targets": [
+        ["id=checkpointSubmitButton", "id"],
+        ["css=#checkpointSubmitButton", "css:finder"],
+        ["xpath=//button[@id='checkpointSubmitButton']", "xpath:attributes"],
+        ["xpath=//div[@id='checkpointBottomBar']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0e60a2b-8b11-42ee-8331-141fe18932ba",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=checkpointSubmitButton",
+      "targets": [
+        ["id=checkpointSubmitButton", "id"],
+        ["css=#checkpointSubmitButton", "css:finder"],
+        ["xpath=//button[@id='checkpointSubmitButton']", "xpath:attributes"],
+        ["xpath=//div[@id='checkpointBottomBar']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "631b3044-1cad-48fc-a682-6ee67870643c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=checkpointSubmitButton",
+      "targets": [
+        ["id=checkpointSubmitButton", "id"],
+        ["css=#checkpointSubmitButton", "css:finder"],
+        ["xpath=//button[@id='checkpointSubmitButton']", "xpath:attributes"],
+        ["xpath=//div[@id='checkpointBottomBar']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d6e9c10-9fe1-4d36-a9e8-676a83d118a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=.\\_2s25", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out')]", "xpath:link"],
+        ["xpath=//div[@id='js_0']/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/logout.php?h=AfetnE19aZ19UkpL3dQ&t=1614724034&ref=mb')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3f8767d-c222-408b-83d1-8d4964141fa4",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Facebook – log in or sign up",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7c7f5b09-17ac-4df9-a165-456add30d59c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9584fd3c-f4a1-4d38-b4ec-fb8672010c00"]
+  }],
+  "urls": ["https://www.facebook.com/"],
+  "plugins": []
+}
